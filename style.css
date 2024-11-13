@@ -1,0 +1,259 @@
+
+h1 {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 80px;
+  }
+  
+h2 {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  margin-top: 30px; 
+  font-size: 40px;
+
+}
+
+.intro{
+    height: 100vh;
+    background-image: url('assets/83dbbc97db39d7b29eabbd80b757023a.jpg');
+    background-size: cover;    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.about {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;       
+    align-items: center;          
+    text-align: center;           
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.portpic {
+    width: 250px;                 
+    height: 260px;                
+    border-radius: 50%;           
+    object-fit: cover;            
+    margin-bottom: 30px;  
+}
+
+.ab{
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 25px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 430;
+    margin-top: 34px;
+}
+
+.tech-icon {
+    width: 50px; 
+    height: auto;
+    margin-top: 10px; 
+}
+
+
+.skills {
+    text-align: center;
+    padding: 20px;
+    background-color: #eeebeb;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    font-family: "Faculty Glyphic", sans-serif;
+    letter-spacing: 6px; 
+    font-weight: bold;
+    font-style: normal;
+}
+
+.icongrids {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.icongrids img {
+    width: 50px;
+    height: 50px;
+    fill: #2a2626; 
+    transition: transform 0.2s ease, fill 0.2s ease;
+}
+
+.icongrids img:hover {
+    transform: scale(1.1);
+    fill: #007bff; 
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+    height: 95vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projects-text {
+    flex: 2;
+    padding-right: 15px;
+}
+
+.projects-heading {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #000; 
+    margin-bottom: 10px;
+}
+
+.subheading {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #666; 
+    margin-top: 5px;
+}
+
+.lead {
+    font-size: 1.5em;
+    color: #333;
+    line-height: 1.7;
+}
+
+.projects-image {
+    flex: 1;
+    width: 500px;
+    height: 500px;
+    background-color: #eeebeb; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appclass{
+    width: 550px;
+}
+
+
+.intrests {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+    height: 68vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.intrests-text {
+    flex: 2;
+    padding-left: 15px;
+}
+
+.intrests-heading {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #000; 
+    margin-bottom: 10px;
+}
+
+
+.intrests-image {
+    flex: 1;
+    width: 350px;
+    height: 350px;
+    background-color: #eeebeb; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.macclass{
+    width: 350px;
+}
+
+.hri {
+    width: 50%;
+    border: 1px solid #5d5c5c;
+}
+
+.hrb {
+    width: 50%;
+    border: 1px solid #5d5c5c;
+    margin-left: auto;
+    margin-top: 100px;
+
+}
+
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 40px;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-link img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-link img:hover {
+    transform: scale(1.1);
+}
+
+.insta-link svg {
+    color: rgb(34, 28, 28);
+}
+
+.insta-link:hover {
+    background-color: #fff9f9;
+}
+
